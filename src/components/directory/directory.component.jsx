@@ -15,7 +15,7 @@ const Directory = ({ sections }) => {
     )
 }
 
-const mapStateToProps = createStructuredSelector({ 
+const mapStateToProps = createStructuredSelector({
   sections: selectDirectorySections
 })
 
